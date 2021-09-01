@@ -1,0 +1,7 @@
+vars:
+  hosts:
+    - http://{{Hostname}}:{{Port}}
+  username: ffa
+  password: ffa
+data_stream:
+  vars: ~

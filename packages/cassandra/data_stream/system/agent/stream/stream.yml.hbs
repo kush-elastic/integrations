@@ -1,0 +1,10 @@
+metricsets: ["jmx"]
+namespace: "metrics"
+hosts:
+{{#each hosts}}
+  - {{this}}
+{{/each}}
+period: {{period}}
+path: {{path}}
+username: {{username}}
+password: {{password}}

@@ -1,0 +1,13 @@
+type: metrics
+title: system
+release: beta
+streams:
+  - input: jolokia/metrics
+    title: Sample metrics
+    description: Collect sample metrics
+    vars:
+      - name: period
+        type: text
+        title: Period
+        default: 10s
+    template_path: "stream.yml.hbs"
