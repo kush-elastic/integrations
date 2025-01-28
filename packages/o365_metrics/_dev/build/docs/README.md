@@ -232,3 +232,4 @@ Get details about Teams device usage from [Microsoft Graph API](https://learn.mi
 Please refer to the following [document](https://www.elastic.co/guide/en/ecs/current/ecs-field-reference.html) for detailed information on ECS fields.
 
 {{fields "teams_device_usage_user_counts"}}
+
